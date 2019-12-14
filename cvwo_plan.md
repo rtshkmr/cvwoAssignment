@@ -8,8 +8,6 @@ A0201829H
 - [solo project planning](https://m.mattmclaugh.com/project-planning-for-solo-developers-4c2af1337805)
 - [parallax design](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
 
-
-
 ## == Overall TODOs ==
 
 1. just do The Odin Project
@@ -66,10 +64,10 @@ React: - components, composable components
 - abide by best practices
 -
 
-
 `Saturday, December 7, 2019 19:27:46`
 
 # INSTRUCTIONS:
+
 Overall Aims: - website dev cycle (CVWO is one development cycle) - learning proper code structure, techniques and familiarity w tools
 
 ## Required Understanding
@@ -97,14 +95,15 @@ Overall Aims: - website dev cycle (CVWO is one development cycle) - learning pro
    - components: module that renders some output
    - you can compose components and create a hierarchy of sorts
 
-
-
-
-
----------------------------------------
-
+---
 
 ## Brainstorming for features
 
+so far the features I hope to implement:
 
-
+0. the assignment specification is tagging and tag-searching features, this is number one priority but tagging can be so useful for otherstuff... e.g. different views(module view / life-aspect view[familylife,sociallife, cca])
+1. google account sync
+2. theming (not impt)
+3. group-work features (maybe as easy as creating a group account insstead?)
+4. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
+5. look for apis to convert web-app to post-it widgets
