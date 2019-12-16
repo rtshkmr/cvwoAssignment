@@ -89,7 +89,6 @@ Overall Aims: - website dev cycle (CVWO is one development cycle) - learning pro
 
 3. JavaScript
    - need beautiful JS
-   -
 4. React
    - Js library to build UIs.
    - components: module that renders some output
@@ -102,8 +101,23 @@ Overall Aims: - website dev cycle (CVWO is one development cycle) - learning pro
 so far the features I hope to implement:
 
 0. the assignment specification is tagging and tag-searching features, this is number one priority but tagging can be so useful for otherstuff... e.g. different views(module view / life-aspect view[familylife,sociallife, cca])
-1. google account sync
-2. theming (not impt)
-3. group-work features (maybe as easy as creating a group account insstead?)
-4. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
-5. look for apis to convert web-app to post-it widgets
+1. BE ABLE TO USE IT AS A NEWTAB PAGE!! sim to dreamafar
+1. google account sync or telegram sync
+1. have the ability to put a timer beside the currently working-on task! Added pressure, timed environment
+1. theming (not impt)
+1. group-work features (maybe as easy as creating a group account insstead?)
+1. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
+1. look for apis to convert web-app to post-it widgets
+
+## `Mon Dec 16 13:04:56 +08 2019` Setting Things Up
+
+- followed instructions from [here](https://github.com/tiuweehan/CVWO-2020)
+
+- updated Rails. Currently:
+  - `Rails 6.0.0`
+  - `ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]`
+- Chose to install `PostgreSQL` as per recommendation
+- Set up `MySQL` too for the lolz
+
+- I do have Rails installed though ![Odin Project Rails](/odin_rails_install.png)
+- **_INCOMPLETE INSTALL. FACING ERROR W POSTGRESQL. SHALL POSTPONE SOLVING THIS UNTIL I LEARN IT FULLY_**
