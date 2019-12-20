@@ -1,5 +1,21 @@
-Ritesh Kumar
-A0201829H
+# Ritesh Kumar A0201829H
+
+**_[contents:]_**
+
+- [Ritesh Kumar A0201829H](#ritesh-kumar-a0201829h)
+  - [Plan for CVWO Assignment:](#plan-for-cvwo-assignment)
+    - [Resources](#resources)
+  - [== Overall TODOs ==](#overall-todos)
+  - [== KEYWORDS TOLEARN ==](#keywords-tolearn)
+  - [== ACTUAL TASKS ==](#actual-tasks)
+  - [== specification ==](#specification)
+  - [== other checklists ==](#other-checklists)
+- [INSTRUCTIONS:](#instructions)
+  - [Required Understanding](#required-understanding)
+  - [Brainstorming for features](#brainstorming-for-features)
+  - [Setting Things Up](#setting-things-up)
+    - [Mon Dec 16 13:04:56 +08 2019](#mon-dec-16-130456-08-2019)
+    - [Fri Dec 20 14:58:57 +08 2019](#fri-dec-20-145857-08-2019)
 
 ## Plan for CVWO Assignment:
 
@@ -68,7 +84,10 @@ React: - components, composable components
 
 # INSTRUCTIONS:
 
-Overall Aims: - website dev cycle (CVWO is one development cycle) - learning proper code structure, techniques and familiarity w tools
+Overall Aims:
+
+- website dev cycle (CVWO is one development cycle)
+- learning proper code structure, techniques and familiarity w tools
 
 ## Required Understanding
 
@@ -109,7 +128,9 @@ so far the features I hope to implement:
 1. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
 1. look for apis to convert web-app to post-it widgets
 
-## `Mon Dec 16 13:04:56 +08 2019` Setting Things Up
+## Setting Things Up
+
+### `Mon Dec 16 13:04:56 +08 2019`
 
 - followed instructions from [here](https://github.com/tiuweehan/CVWO-2020)
 
@@ -121,3 +142,9 @@ so far the features I hope to implement:
 
 - I do have Rails installed though ![Odin Project Rails](/odin_rails_install.png)
 - **_INCOMPLETE INSTALL. FACING ERROR W POSTGRESQL. SHALL POSTPONE SOLVING THIS UNTIL I LEARN IT FULLY_**
+
+- solved the problem did it while following Odin Project tutorials. Just needed to set a user account properly
+
+### `Fri Dec 20 14:58:57 +08 2019`
+
+- tried out integrating react w rails, ![greetings_page](/hello_world_react.png)
