@@ -23,6 +23,7 @@
 
 - [solo project planning](https://m.mattmclaugh.com/project-planning-for-solo-developers-4c2af1337805)
 - [parallax design](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
+- [for the future: Opensource Guide](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source)
 
 ## == Overall TODOs ==
 
