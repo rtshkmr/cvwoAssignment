@@ -28,16 +28,17 @@
 ## == Overall TODOs ==
 
 1. just do The Odin Project
-2. learn Ruby, look out for them gotchas
-3. basic database understanding. SQL...
-4. front end stuff (HTML CSS) from HTML dog
-5. JS stuff from various sites, use Eloquent JavaScript Chap 11 to supplement
-6. React tutorial
+2. learn Ruby, look out for them gotchas [done]
+3. basic database understanding. SQL via Odin...[done]
+4. front end stuff (HTML CSS) from HTML dog [done]
+5. JS stuff from various sites, use Eloquent JavaScript Chap 11 to supplement [pending, on schedule]
+6. React tutorial [part of Odin also, still on schedule]
 7. To aid abstraction and modularisation,
    Create code templates whereever possible:
    . Headers and footers
 
-8. Host on Heroku
+8. Host on Heroku [little bit of experience gained from various tutorials] 
+9. Allow it to be used as an app on the homepage, see this link for how to implement, [seems manageable](https://www.freecodecamp.org/news/how-to-turn-your-website-into-a-mobile-app-with-7-lines-of-json-631c9c9895f5/)
 
 ## == KEYWORDS TOLEARN ==
 
@@ -79,7 +80,6 @@ React: - components, composable components
 
 - test across all browsers
 - abide by best practices
--
 
 `Saturday, December 7, 2019 19:27:46`
 
@@ -122,12 +122,12 @@ so far the features I hope to implement:
 
 0. the assignment specification is tagging and tag-searching features, this is number one priority but tagging can be so useful for otherstuff... e.g. different views(module view / life-aspect view[familylife,sociallife, cca])
 1. BE ABLE TO USE IT AS A NEWTAB PAGE!! sim to dreamafar
-1. google account sync or telegram sync
-1. have the ability to put a timer beside the currently working-on task! Added pressure, timed environment
-1. theming (not impt)
-1. group-work features (maybe as easy as creating a group account insstead?)
-1. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
-1. look for apis to convert web-app to post-it widgets
+2. google account sync or telegram sync
+3. have the ability to put a timer beside the currently working-on task! Added pressure, timed environment
+4. theming (not impt), create a zen mode instead
+5. group-work features [no way i can do this in time]
+6. have different focus modes when making todos (maybe weekly/month vs daily or a per-module basis..)
+
 
 ## Setting Things Up
 
