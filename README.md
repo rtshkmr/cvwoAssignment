@@ -1,6 +1,7 @@
 # Ritesh Kumar A0201829H
 
-[whatsnextforme (rudimentary version, just started after first submission)](https://whatsnextforme.herokuapp.com/)
+
+[Nowwat](http://nowwat.herokuapp.com)
 
 ---
 
@@ -8,5 +9,7 @@
 
 - please see [submission 1 README](submission_1/README.md) which directs to the writeup and screenshots.
 
-## 24 January 2019 Submission 2: 
+## 9 February 2020 Submission 2:
+
+- please see [final write up](final_submission/cvwo_final_submission.pdf) and [final submission README](final_submission/nowwat/README.md)
 
