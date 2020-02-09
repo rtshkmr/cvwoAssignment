@@ -1,0 +1,38 @@
+[
+    {
+      "title": "sampletask1seed",
+      "body": "testbody1",
+      "deadline": "2018-05-01",
+      "completed": false
+    },
+    {
+      "title": "Sample task 2",
+      "body": "testbody2",
+      "deadline": "2018-04-01",
+      "completed": false
+    },
+    {
+      "title": "sample task 3",
+      "body": "testbody3",
+      "deadline": "2018-04-01",
+      "completed": false
+    },
+    {
+      "title": "sample task 4",
+      "body": "testbody4",
+      "deadline": "2017-05-01",
+      "completed": false
+    },
+    {
+      "title": "sample task 5",
+      "body": "testbody5",
+      "deadline": "2017-05-01",
+      "completed": false
+    },
+    {
+      "title": "sample task 6",
+      "body": "testbody6",
+      "deadline": "2017-05-01",
+      "completed": false
+    }
+  ]

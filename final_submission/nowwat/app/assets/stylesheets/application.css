@@ -1,0 +1,284 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Monoton&display=swap');
+
+/* below is a custom reset */
+
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+a,
+fieldset,
+input,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+header {
+    background: #fd0303;
+    height: 100px;
+}
+
+header h1,
+header h1 a {
+    display: inline-block;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(22, 1, 1);
+    padding: 30px 5%;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 25% auto;
+    margin: 25px auto;
+    width: 90%;
+    height: calc(100vh - 145px);
+}
+
+.taskList {
+    background: #a10000;
+    padding: 16px;
+}
+
+.taskList h2 {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    padding: 8px 6px 10px;
+}
+
+.taskContainer {
+    /* background: #e40000; */
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.taskContainer h2 {
+    margin-bottom: 10px;
+    /* font-family: 'Limelight'; */
+}
+
+.taskList li:hover,
+a.active {
+    background: #f7050560;
+}
+
+.taskList a {
+    display: block;
+    color: rgb(230, 207, 207);
+    text-decoration: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 6px 10px;
+    outline: 0;
+}
+
+.taskList h2>a {
+    color: #f5f5f5;
+    font-size: px;
+    float: right;
+    font-weight: bold;
+    border-bottom: none;
+    padding: 1px;
+}
+
+.taskForm {
+    margin-top: 15px;
+}
+
+label>strong {
+    display: inline-block;
+    /* font-family: 'Limelight'; */
+    vertical-align: top;
+    text-align: right;
+    width: 100px;
+    margin-right: 6px;
+    font-size: 15px;
+}
+
+input,
+textarea {
+    padding: 2px 0 3px 3px;
+    width: 400px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: 13px;
+}
+
+button[type="submit"] {
+    background: #f7050560;
+    border: none;
+    padding: 5px 25px 8px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0 0 106px;
+}
+
+.errors {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 20px 0 35px 0;
+    width: 513px;
+}
+
+.errors h3 {
+    background: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.errors ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0 8px 10px;
+    border-top: solid 1px pink;
+    font-size: 12px;
+    font-weight: 0.9;
+}
+
+button.delete {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #850108;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 3px 0 0 0;
+    text-decoration: none;
+}
+
+button.delete:hover {
+    text-decoration: underline;
+}
+
+h2 a {
+    color: #700303;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 3px 12px 0 12px;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+.form-actions a {
+    color: #660101;
+    font-size: 15px;
+    margin: 3px 12px 0 12px;
+    text-decoration: none;
+}
+
+.form-actions a:hover {
+    text-decoration: underline;
+}
+
+input.search {
+    width: 92%;
+    margin: 15px 2px;
+    padding: 4px 0 6px 6px;
+}
+
+.tagList {
+    background: #a10000;
+    padding: 16px;
+}
+
+.tagList h2 {
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    padding: 8px 6px 10px;
+}
+
+.tagContainer {
+    /* background: #e40000; */
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.tagContainer h2 {
+    margin-bottom: 10px;
+    /* font-family: 'Limelight'; */
+}
+
+.tagList li:hover,
+a.active {
+    background: #f7050560;
+}
+
+.tagList a {
+    display: block;
+    color: rgb(230, 207, 207);
+    text-decoration: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 6px 10px;
+    outline: 0;
+}
+
+.tagList h2>a {
+    color: #f5f5f5;
+    font-size: px;
+    float: right;
+    font-weight: bold;
+    border-bottom: none;
+    padding: 1px;
+}
