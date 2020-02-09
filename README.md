@@ -11,5 +11,5 @@
 
 ## 9 February 2020 Submission 2:
 
-- please see [final write up](final_submission/cvwo_final_submission.pdf) and [final submission README](final_submission/nowwat/README.md)
+- please see [final write up](final_submission/cvwo_final_submission.pdf) and [final submission README](final_submission/nowwat/README.md) a [dump of the actual repository is within this repo](final_submission/nowwat/)
 
